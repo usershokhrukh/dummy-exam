@@ -1,0 +1,45 @@
+.products {
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 1300px;
+  gap: 20px;
+  margin: auto;
+
+  &__table {
+    width: 100%;
+  }
+
+  &__box {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  &__button {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: rgb(243, 237, 158);
+    cursor: pointer;
+    border: none;
+
+    &-del {
+      background-color: rgb(240, 176, 176) !important;
+    }
+  }
+
+  &__add {
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: rgb(243, 237, 158);
+    cursor: pointer;
+    border: none;
+    background-color: rgba(96, 182, 240, 0.623);
+  }
+}
